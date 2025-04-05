@@ -44,3 +44,6 @@ Route::apiResource('favourites', FavouritesController::class);
 Route::apiResource('addresses', AddressesController::class);
 
 
+Route::get('/test', function (){
+    echo 1 . PHP_EOL;
+});
